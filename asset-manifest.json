@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.5ba8cb88.css",
-    "main.js": "/cv-react/static/js/main.71660c9e.js",
+    "main.css": "/cv-react/static/css/main.f276f8fb.css",
+    "main.js": "/cv-react/static/js/main.e39d68b0.js",
     "static/media/github.svg": "/cv-react/static/media/github.99b9319990f12b9ac49a0ca802af6b6c.svg",
     "static/media/avatar1.jpg": "/cv-react/static/media/avatar1.0dd9b80d34ebc2fe66eb.jpg",
     "static/media/discord.svg": "/cv-react/static/media/discord.af39250fb266e8794254b639ea28d416.svg",
     "static/media/telegram.svg": "/cv-react/static/media/telegram.2abfb6645667377ef7fcf4be46710e65.svg",
     "index.html": "/cv-react/index.html",
-    "main.5ba8cb88.css.map": "/cv-react/static/css/main.5ba8cb88.css.map",
-    "main.71660c9e.js.map": "/cv-react/static/js/main.71660c9e.js.map"
+    "main.f276f8fb.css.map": "/cv-react/static/css/main.f276f8fb.css.map",
+    "main.e39d68b0.js.map": "/cv-react/static/js/main.e39d68b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba8cb88.css",
-    "static/js/main.71660c9e.js"
+    "static/css/main.f276f8fb.css",
+    "static/js/main.e39d68b0.js"
   ]
 }
