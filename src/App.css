@@ -10,38 +10,34 @@ h2 {
 body {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
-  /* background-color: #00d1b2; */
-  overflow:  hidden;
 }
 #root {
   background: #000000c9;
 }
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1440px;
-  margin: 0 auto;
-  background: #f3fff6;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #f3fff6;
 }
 .avatar {
   display: flex;
   gap: 65px;
   background-color: #000000eb;
-  height: 400px;
+  height: 600px;
   width: 650px;
 }
 .avatar__title {
   display: flex;
   flex-direction: column;
-  margin-top: 110px;
+  margin-top: 30%;
 }
 .avatar__image {
   width: 230px;
   height: 260px;
   border-radius: 42%;
   cursor: pointer;
-  margin: 65px 0 0 65px;
+  margin: 133px 0 0 65px;
   box-shadow: 9px 4px 20px 1px rgb(76 69 69 / 48%);
 }
 .avatar__title > p {
@@ -54,6 +50,14 @@ body {
   color: #5b8e5ea1;
   font-size: 24px;
   padding-top: 10px;
+}
+.skills__interest {
+  height: 535px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .contact {
   padding: 0 15px 0 15px;
@@ -78,30 +82,19 @@ body {
 .contact__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-right: 80px;
-}
-.skills {
-  position: absolute;
-  top: 18px;
-  left: 49%;
+  margin-top: 20px;
+  gap: 40px;
+  padding-left: 18px;
+  margin-right: 70px;
 }
 .skills__wrapper {
-  margin-top: 10px;
-  display: grid;
-  grid-template-columns: 221px 114px;
-  grid-template-rows: 65px 65px;
-  font-size: 21px;
-  position: relative;
-  left: 7%;
-}
-.skills___item {
-
-}
-.interest {
-  position: absolute;
-  top: 230px;
-  left: 49%;
+  margin-top: 24px;
+  flex-direction: column;
+  display: flex;
+  font-size: 25px;
+  gap: 11px;
+  width: 327px;
+  padding-left: 31px;
 }
 .interest__wrapper {
   margin-top: 15px;
@@ -122,17 +115,17 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   background: #000000;
-  height: 500px;
+  height: 700px;
 }
 .other {
   width: 250px;
   background: #f3fff6;
-  height: 500px;
+  height: 700px;
 }
 .about__me {
   width: 400px;
   background: #f3fff6;
-  height: 500px;
+  height: 700px;
   text-align: center;
   padding: 0 15px 0 15px;
   color: #666666;
@@ -140,11 +133,12 @@ body {
 .about__me h2 {
   margin-top: 10px;
   color: #000000;
+  margin-bottom: 50px;
 }
 .about__me p {
   font-size: 25px;
   text-align: left;
-  padding-bottom: 22px;
+  padding-bottom: 75px;
 }
 .about__me p span {
   font-size: 27px;
@@ -156,26 +150,28 @@ body {
   border-right: 2px solid #424242;
 }
 .languages h2 {
-   text-align: center;
-   margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 57px;
 }
 .languages__wrapper {
-  margin: 10px 0 0px 80px;
+  margin: 0px 0 0px 40px;
 }
 .languages__item {
-  margin-bottom: 10px;
+  margin-bottom: 28px;
 }
 .languages__item h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 .languages__item p {
-  font-size: 18px;
+  font-size: 27px;
   font-weight: 600;
 }
 .education {
   text-align: center;
   padding: 0 15px 0 15px;
   border-right: 2px solid #424242;
+  margin-top: 177px;
 }
 .education h3 {
   font-size: 25px;

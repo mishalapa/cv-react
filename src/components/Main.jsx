@@ -44,9 +44,24 @@ const Main = () => {
                 <h2>MY PROJECTS</h2>
                 <ul className="projects__wrapper">
                     <li className="projects__item">
+                        <a target="_blank" href="https://moviesearch-peach.vercel.app/">Movie Search</a>
+                        <p>Description: Implemented registration, dynamic search, favorites and history tabs work</p>
+                        <p>Stack: React, Redux, RTK Query, Custom Middleware, Custom Hooks.</p>
+                    </li>
+                    <li className="projects__item">
                         <a target="_blank" href="https://rolling-scopes-school.github.io/mishalapa-JSFEPRESCHOOL/memory-game/">Memory Game</a>
                         <p>Description: A game for the development of memory. Everyone must make their choice! Marvel or DC!</p>
                         <p>Stack: DOM Events, CSS Animations, Adaptive, Algorithms, localStorage.</p>
+                    </li>
+                    <li className="projects__item">
+                        <a target="_blank" href="https://rolling-scopes-school.github.io/mishalapa-JSFEPRESCHOOL/portfolio/">Landing Page</a>
+                        <p>Description: An example of a landing page made by me from the rs-school course</p>
+                        <p>Stack: DOM Events, CSS Animations, Adaptive markup,  localStorage, pixelPerfect markup.</p>
+                    </li>
+                    <li className="projects__item">
+                        <a target="_blank" href="https://mishalapa.github.io/game/">Executioner</a>
+                        <p>Description: A children's game in which you have to guess the word faster than the executioner hangs his victim</p>
+                        <p>Stack: React, Hooks</p>
                     </li>
                     <li className="projects__item">
                         <a target="_blank" href="https://mishalapa.github.io/Calculator/">Calculator</a>
@@ -58,11 +73,7 @@ const Main = () => {
                         <p>Description: Enter a request and enjoy the photos.</p>
                         <p>Stack:  DOM Events, CSS Animations, Adaptive markup, Web Photo API.</p>
                     </li>
-                    <li className="projects__item">
-                        <a target="_blank" href="https://rolling-scopes-school.github.io/mishalapa-JSFEPRESCHOOL/portfolio/">Landing Page</a>
-                        <p>Description: An example of a landing page made by me from the rs-school course</p>
-                        <p>Stack: DOM Events, CSS Animations, Adaptive markup,  localStorage, pixelPerfect markup.</p>
-                    </li>
+                    
                     <li className="projects__item">
                         <a target="_blank" href="https://rolling-scopes-school.github.io/mishalapa-JSFEPRESCHOOL/custom-video/">Video Player</a>
                         <p>Description: Custom video player with videos about my pets</p>
@@ -75,3 +86,4 @@ const Main = () => {
 }
 
 export default Main;
+

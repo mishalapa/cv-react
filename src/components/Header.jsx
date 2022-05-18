@@ -34,6 +34,12 @@ const Header = () => {
                     <p>React</p>
                 </li>
                 <li className="skills__item">
+                    <p>Redux</p>
+                </li>
+                <li className="skills__item">
+                    <p>TypeScript</p>
+                </li>
+                <li className="skills__item">
                     <p>HTML/CSS/SCSS</p>
                 </li>
                 <li className="skills__item">
