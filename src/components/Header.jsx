@@ -36,6 +36,7 @@ const Header = () => {
                 <li className="skills__item">
                     <p>Redux</p>
                 </li>
+                
                 <li className="skills__item">
                     <p>TypeScript</p>
                 </li>
